@@ -7,13 +7,11 @@ a:focus {
   cursor: pointer;
 }
 
-
 /*стили header*/
 
 .fish__menu {
   margin: 0 auto 0 auto;
   background-color: #1d1e1e;
-
 }
 
 
@@ -29,7 +27,6 @@ a:focus {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .header__menu {
@@ -40,18 +37,9 @@ a:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-  //background-color: red;
-
 }
 
 .menu__item {
- // height: 45px;
-  //margin-right: 60px;
-  //padding: 14px 0 15px 0;
-
-  //: yellow;
-
   margin: 0;
   padding: 12px 30px 0 0;
   height: 33px;
@@ -67,7 +55,6 @@ a:focus {
     letter-spacing: 0.35px;
     text-align: left;
     color: #ffffff;
-
     text-decoration: none;
   }
 }
@@ -86,7 +73,6 @@ a:focus {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
 
 .call__insc {
@@ -100,7 +86,6 @@ a:focus {
   font-style: normal;
   text-align: left;
   color: #ffffff;
-
   line-height: 13px;
 }
 
@@ -115,7 +100,6 @@ a:focus {
   font-style: normal;
   text-align: left;
   color: #009ee2;
-
   line-height: 16px;
 }
 
@@ -146,7 +130,7 @@ a:focus {
   border-style: solid;
   border-width: 1px;
   border-color: #dddddd;
-  margin: 0 35px 0 0;    // было 48px
+  margin: 0 35px 0 0;
 }
 
 .search__form {
@@ -155,8 +139,6 @@ a:focus {
   border-width: 0;
   padding: 15px 388px 14px 25px;
 }
-
-
 .search__form::placeholder {
   width: 103px;
   height: 13px;
@@ -165,7 +147,6 @@ a:focus {
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  //line-height: 1.79;
   letter-spacing: 0.7px;
   text-align: left;
   color: #1d1e1e;
@@ -236,7 +217,6 @@ main {
   color: #1d1e1e;
   background-image: none;
 
-
   .item__link {
     font-family: Panton;
     font-size: 14px;
@@ -255,7 +235,6 @@ main {
   .item__link:focus {
     color: #009ee2;
   }
-
 
   .item__link_catalogue:hover,
   .item__link_catalogue:focus {
@@ -295,12 +274,8 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-
-  position: relative;  //******
+  position: relative;
 }
-
-
-
 
 .menu__product-group {
   padding: 0 30px 0 0;
@@ -317,23 +292,19 @@ main {
   background-image: url("../img/product-group__item-1.png"), url("../img/product-group__item-2.png");
   background-repeat: no-repeat, no-repeat;
   background-position: left 25px center, right 18px center;
-
-  position: relative; //*********
+  position: relative;
 }
 
 
 .link-product_button {
-
   border-style: none;
   background-color: #efefef;
   background-image: url("../img/product-group__item-2.png");
   background-repeat:  no-repeat;
   background-position:  center;
-
   position: absolute;
   top: 15px;
   right: 18px;
-
 }
 
 .link-product_button:hover,
@@ -353,7 +324,7 @@ main {
 }
 .item__link-product {
   text-decoration: none;
-  //color: #1d1e1e;
+  color: #1d1e1e;
   padding: 17px 79px 14px 61px;
   font-family: Panton;
   font-size: 15px;
@@ -363,13 +334,9 @@ main {
   line-height: 47px;
 }
 
-
-
 .item__link-product_blue {
   color: rgb(0, 158, 226);
 }
-
-
 
 .catalogue1__menu__closed {
   display: none;
@@ -380,7 +347,6 @@ main {
   .product-group__item {
     background-color: #e5e5e5;
     margin: 0 0 0 0;
-
     width: 263px;
     height: 47px;
     border-radius: 0;
@@ -405,7 +371,6 @@ main {
 
   }
 
-
   .item__link-product:hover,
   .item__link-product:focus {
     color: rgb(0, 158, 226);
@@ -416,7 +381,6 @@ main {
   .product-group__item:focus {
     background-image: url("../img/product-group__item-1_blue.png");
   }
-
 }
 
 .item__link-product:hover,
@@ -633,12 +597,9 @@ main {
 
 /*стили hit*/
 .main__hit {
-
   margin: 125px auto 0 auto;
   max-width: 1140px;
 }
-
-
 
 .main__bestseller::before {
   content: "";
@@ -1071,18 +1032,13 @@ main {
 
 .main__news_section{
   margin: 0 auto 0 auto;
-
-  //background-color: #efefef;
  background: linear-gradient(to bottom, #ffffff 57.5%, #efefef 42.5%);
 
 }
 
-
 .main__news {
   margin: 125px auto 0 auto;
   max-width: 1140px;
-
-
 
   .main__news::before {
     content: "";
@@ -1094,7 +1050,6 @@ main {
     width: 1140px;
     height: 1px;
     background-color: #efefef;
-    //background-color: red;
   }
 
   .news__title {
@@ -1112,7 +1067,6 @@ main {
     font-size: 36px;
     font-weight: 800;
     line-height: 35px;
-    // line-height: 0.69;
     letter-spacing: 1.2px;
     font-style: normal;
     text-align: left;
@@ -1145,7 +1099,6 @@ main {
     width: 104px;
     height: 1px;
     background-color: #009ee2;
-    //background-color: red;
   }
 
   .title__button {
@@ -1204,9 +1157,6 @@ main {
   background-color: #ffffff;
  }
 
-
-
-
 .news_item_last {
   margin:  0 0 0 0;
 }
@@ -1247,9 +1197,7 @@ main {
     letter-spacing: 0.33px;
     text-align: center;
     color: #ffffff;
-
     margin: 12px 17px 13px 13px;
-
   }
 }
 
@@ -1266,7 +1214,6 @@ main {
   text-align: left;
   color: #1d1e1e;
   text-transform: uppercase;
-
   margin:0 46px 20px 24px;
   padding-top: 22px;
 }
@@ -1301,9 +1248,7 @@ main {
   letter-spacing: 2px;
   text-align: left;
   color: #0295d5;
-
   text-transform: uppercase;
-
   margin: 0 257px 24px 25px;
 }
 
@@ -1318,7 +1263,6 @@ main {
   width: 78px;
   height: 1px;
   background-color: #009ee2;
-  //background-color: red;
 }
 
 /* конец стилей news*/
@@ -1342,7 +1286,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   background-color: #efefef;
 
 }
@@ -1374,9 +1317,7 @@ main {
   height: 15px;
   box-shadow: 0px 9px 21px 0 rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
-
   border-width: 0;
-
   padding: 21px 0 22px 32px;
 }
 
@@ -1395,19 +1336,14 @@ main {
   letter-spacing: 3.2px;
   text-align: center;
   color: #ffffff;
-
   border-width: 0;
-
   padding: 0;
 }
-
-
 
 .form__button:hover,
 .form__button:focus {
   cursor: url(../img/click.png), pointer;
 }
-
 
 .form__text::placeholder {
   width: 83px;
@@ -1454,8 +1390,6 @@ main {
   margin-right: 0;
 }
 
-
-
 .disc_text_white{
   width: 293px;
   height: 88px;
@@ -1468,7 +1402,6 @@ main {
   letter-spacing: 1.2px;
   text-align: left;
   color: #ffffff;
-
   margin: 49px 0 63px 42px;
 }
 
@@ -1480,13 +1413,13 @@ main {
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
-  //line-height: 1.36;
+
   line-height: 22px;
   letter-spacing: 0.55px;
   text-align: left;
   color: #5dd5fe;
 
-  //margin: 60px 0 197px 233px;
+
   margin: 0;
   padding: 0;
   position: absolute;
@@ -1502,14 +1435,12 @@ main {
   background-image: url("../img/disc_button.png");
   background-repeat: no-repeat;
   background-position: center ;
-
   margin: 0 0 42px 44px;
   padding: 0;
 
 }
 
 /*конец стилей disc*/
-
 
 
 /* стили about*/
@@ -1557,7 +1488,6 @@ main {
 
 .text__paragraph {
   width: 542px;
-  //height: 339px;
   font-family: Panton;
   font-size: 14px;
   font-weight: 600;
@@ -1584,17 +1514,17 @@ main {
 /*конец стилей main*/
 
 
-
 /*стили fish__footer*/
 
 footer {
   height: 453px;
   background-color: #1d1e1e;
-  margin: 115px 0 0 0;
+  margin: 115px auto 0 auto;
 }
 
 .fish__footer {
   padding: 64px 0 0 0;
+  margin: 0 auto 0 auto;
   max-width: 1140px;
   background-color: #1d1e1e;
 
@@ -1620,7 +1550,6 @@ footer {
   width: 1140px;
   height: 1px;
   background-color: #343535;
-  //background-color: red;
 }
 
 .up__logo {
@@ -1637,14 +1566,11 @@ footer {
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-   // line-height: 1.81;
     letter-spacing: 1.35px;
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
-
     margin: 7px 0 63px 0;
   }
-
 
 }
 
@@ -1663,7 +1589,6 @@ footer {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    //line-height: 3.43;
     letter-spacing: 0.14px;
     text-align: left;
     color: #009be1;
@@ -1686,7 +1611,6 @@ footer {
   border-bottom-width: 1px ;
   border-color: #0e6995;
 }
-
 
 
 .up__about-company {
@@ -1786,7 +1710,6 @@ footer {
     letter-spacing: 0.15px;
     text-align: left;
     color: #009add;
-
     text-transform: lowercase;
   }
 }
@@ -1833,11 +1756,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-
   margin: 48px 0 0 0;
-
-
-
 }
 
 /*конец стилей fish__footer*/
